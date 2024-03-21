@@ -61,9 +61,3 @@ const getLinks = links =>
     .join('\n');
 assignDOM(dom.main.links(), getLinks(main.links));
 
-const viewResumeButton = document.getElementById('viewResume');
-const pdfFilePath = '/CV-file/D.Caacoy-CV.pdf'; // Replace 'path_to_your_resume.pdf' with the actual path to your PDF file
-
-viewResumeButton.addEventListener('click', function() {
-    window.open(pdfFilePath, '_blank');
-});
