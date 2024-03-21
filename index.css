@@ -23,3 +23,24 @@
     transform: translateY(-50%);
   }
 }
+
+
+
+.resume-button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.resume-button:hover {
+  background-color: #2980b9;
+}
+
+.resume-title {
+  margin-top: 10px;
+  font-size: 18px;
+}
